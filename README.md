@@ -25,6 +25,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+You should update the TERM variable to use the most current semester
 ```bash
 # Create areas.json
 python pathways_scraper.py > areas.json
