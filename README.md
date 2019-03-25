@@ -1,8 +1,8 @@
 # pathways_scraper
 
-This script will scrapes the Virginia Tech timetable using [pyvt](https://github.com/VirginiaTech/pyvt).
+Scrapes the Virginia Tech timetable using [pyvt](https://github.com/VirginiaTech/pyvt)
 
-It creates a json mapping each CLE area and Pathway to their courses
+Creates a json mapping each CLE area or Pathway to its courses
 
 ## Installation
  Requires python3
