@@ -18,6 +18,8 @@ timetable = Timetable()
 for area in areas:
     sections = timetable.cle_lookup(area, TERM, open_only=False)
     for s in sections:
+        if s.credits == '* Additional Times *':
+            continue
         string = '{}|{}|{}'.format(s.code, s.name, s.credits)
         areas_dict[area].add(string)
     areas_dict[area] = list(areas_dict[area])
